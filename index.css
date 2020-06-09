@@ -1,0 +1,43 @@
+.x-item{
+    background-color: rgb(255, 255, 255);
+    }
+body {
+    background: url(../img/tel.jpg);
+    color: yellowgreen;
+    }
+
+nav.menu-nav ul li.menu-principal a {
+    color: blue;
+    text-decoration: none;
+    background-color:rgb(230, 173, 230);
+    font-size: 30px;
+    padding: 1px;
+    margin: 10px 20px 20px 25px;
+        }
+
+nav.menu-nav ul li.menu-principal:hover a {
+            color: lightsalmon;
+            background-color: white;
+            transition: 0,6 all;
+            }   
+
+nav.menu-nav ul li.menu-principal {   
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+footer {position: absolute; bottom: 0;}
+
+li.menu-footer{
+    background-color: red;
+    margin-top: 10px;
+    }
+
+footer.pied-menu ul li.menu-footer   {
+        list-style-type: none;
+        display: inline-block;
+        }
+.pied-menu{
+    position: absolute;
+    }
